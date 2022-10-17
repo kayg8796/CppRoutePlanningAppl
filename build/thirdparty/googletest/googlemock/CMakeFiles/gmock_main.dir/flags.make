@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include -isystem /home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/googletest/googlemock -isystem /home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -isystem /home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/googletest/googlemock/include -isystem /home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/googletest/googlemock -isystem /home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/googletest/googletest/include -isystem /home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/googletest/googletest 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/googletest/googlemock
+# Install script for directory: /home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/googletest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,28 +38,28 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/googletest/googlemock/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/lib/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ngomba/udacity/project1/CppRoutePlanningAppl/build/lib/libgmock.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/lib/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ngomba/udacity/project1/CppRoutePlanningAppl/build/lib/libgmock_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock/gtest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ngomba/udacity/project1/CppRoutePlanningAppl/build/thirdparty/googletest/googlemock/gtest/generated/gmock.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock/gtest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ngomba/udacity/project1/CppRoutePlanningAppl/build/thirdparty/googletest/googlemock/gtest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock/gtest/cmake_install.cmake")
+  include("/home/ngomba/udacity/project1/CppRoutePlanningAppl/build/thirdparty/googletest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

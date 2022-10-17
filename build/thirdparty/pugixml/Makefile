@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ngomba/udacity/project1/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/ngomba/udacity/project1/CppRoutePlanningAppl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build
+CMAKE_BINARY_DIR = /home/ngomba/udacity/project1/CppRoutePlanningAppl/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/CMakeFiles /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/progress.marks
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build/CMakeFiles 0
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ngomba/udacity/project1/CppRoutePlanningAppl/build/CMakeFiles /home/ngomba/udacity/project1/CppRoutePlanningAppl/build/thirdparty/pugixml/CMakeFiles/progress.marks
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ngomba/udacity/project1/CppRoutePlanningAppl/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/clean
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 thirdparty/pugixml/CMakeFiles/pugixml.dir/rule:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
 .PHONY : thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ pugixml: thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
 
 # fast build rule for target.
 pugixml/fast:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/build
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/build
 .PHONY : pugixml/fast
 
 src/pugixml.o: src/pugixml.cpp.o
@@ -177,7 +177,7 @@ src/pugixml.o: src/pugixml.cpp.o
 
 # target to build an object file
 src/pugixml.cpp.o:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o
 .PHONY : src/pugixml.cpp.o
 
 src/pugixml.i: src/pugixml.cpp.i
@@ -186,7 +186,7 @@ src/pugixml.i: src/pugixml.cpp.i
 
 # target to preprocess a source file
 src/pugixml.cpp.i:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.i
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.i
 .PHONY : src/pugixml.cpp.i
 
 src/pugixml.s: src/pugixml.cpp.s
@@ -195,7 +195,7 @@ src/pugixml.s: src/pugixml.cpp.s
 
 # target to generate assembly for a file
 src/pugixml.cpp.s:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.s
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(MAKE) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.s
 .PHONY : src/pugixml.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ngomba/udacity/project1/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ngomba/udacity/project1/CppRoutePlanningAppl/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
