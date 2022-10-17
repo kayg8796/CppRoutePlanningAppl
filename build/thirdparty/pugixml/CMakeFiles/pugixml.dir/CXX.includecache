@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
+/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/pugixml/src/pugiconfig.hpp
 
-/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
+/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/pugixml/src/pugixml.cpp
 pugixml.hpp
-/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
+/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/pugixml/src/pugixml.hpp
 stdlib.h
 -
 stdio.h
@@ -38,9 +38,9 @@ new
 stdint.h
 -
 
-/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
+/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/pugixml/src/pugixml.hpp
 pugiconfig.hpp
-/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
+/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/pugixml/src/pugiconfig.hpp
 stddef.h
 -
 exception

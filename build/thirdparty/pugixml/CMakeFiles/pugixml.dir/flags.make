@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ngomba/udacity/project1/CppND-Route-Planning-Project/thirdparty/pugixml/src 
+CXX_INCLUDES = -I/home/ngomba/udacity/project1/CppRoutePlanningAppl/thirdparty/pugixml/src 
 
