@@ -4,7 +4,7 @@
 *.o
 draw.cpp
 test.cpp
-build/
+#build/
 bin/
-lib/
+#lib/
 .github/**
